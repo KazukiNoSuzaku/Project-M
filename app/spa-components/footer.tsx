@@ -8,7 +8,7 @@ export default function Footer(){
             </p>
 
             <Image
-            src="/frostforge_logo.png"
+            src="/M2M_logo.svg"
             width={36}
             height={36}
             alt="Frostforge"

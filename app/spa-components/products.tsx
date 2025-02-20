@@ -45,10 +45,10 @@ export default function Products(){
                     <div className="flex relative pt-20 lg:pt-5 z-20 flex-col gap-6 w-full lg:w-1/2 xl:mt-20 block">
                         <div className="text-center leading-8 md:leading-10 md:text-left">
                             <div className="inline-block">
-                                <h1 className="tracking-tight text-white inline font-semibold text-[2.1rem] lg:text-5xl">Build your application&nbsp;</h1>
+                                <h1 className="tracking-tight text-white inline font-semibold text-[2.1rem] lg:text-5xl">Check out our&nbsp;</h1>
                             </div>
                             <div className="inline-block">
-                                <h1 className="tracking-tight inline font-semibold from-[#4949f8] to-[#49f8ef] text-[2.1rem] lg:text-5xl bg-clip-text text-transparent bg-gradient-to-b">Today&nbsp;</h1>
+                                <h1 className="tracking-tight inline font-semibold from-[#D5ECE1] to-[#5BF0A6] text-[2.1rem] lg:text-5xl bg-clip-text text-transparent bg-gradient-to-b">Solutions&nbsp;</h1>
                             </div>
                             
                         </div>

@@ -29,17 +29,17 @@ export default function Contact(){
 
     return(
     <main>
-        <div className="flex light relative lg:overflow-visible w-full flex-wrap justify-between items-center bg-gradient-to-r from-cyan-800 to-indigo-700">
+        <div className="flex light relative lg:overflow-visible w-full flex-wrap justify-between items-center bg-gradient-to-r from-[#132A1F] to-[#204634]">
         
             <div className="container mx-auto max-w-7xl px-6 flex-grow">
                 <div  className="flex pt-20 pb-20 relative z-20 flex-col gap-6 w-full lg:w-1/2 xl:mt-10">
                     <div className="text-center leading-8 md:leading-10 md:text-left">
                         <div className="inline-block">
-                        <h1 className="tracking-tight text-white inline font-semibold text-[2.1rem] lg:text-5xl">Get in&nbsp;</h1>
+                        <h1 className="tracking-tight text-[#D5ECE1] inline font-semibold text-[2.1rem] lg:text-5xl">Get in&nbsp;</h1>
                         
                         </div>
                         <div className="inline-block">
-                        <h1 className="tracking-tight inline font-semibold from-lime-300 to-sky-500 text-[2.1rem] lg:text-5xl bg-clip-text text-transparent bg-gradient-to-b">Touch&nbsp;</h1>
+                        <h1 className="tracking-tight inline font-semibold from-[#D5ECE1] to-[#132A1F] text-[2.1rem] lg:text-5xl bg-clip-text text-transparent bg-gradient-to-b">Touch&nbsp;</h1>
                         </div>
 
                         
@@ -104,11 +104,6 @@ export default function Contact(){
                         height={10}
                         width={100}
                         alt="react" />
-                    <Image
-                        src="/motion_logo.PNG"
-                        height={10}
-                        width={100}
-                        alt="motion" />
                     <Image
                         src="/aws_logo.png"
                         height={10}
