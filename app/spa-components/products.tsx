@@ -40,7 +40,7 @@ export default function Products(){
     return(
         
         <main >
-            <div className="flex relative lg:overflow-visible w-full flex-wrap justify-between items-center bg-[url('/silk_mobile.PNG')]  md:bg-[url('/silk.png')] md:bg-cover bg-fixed">
+            <div className="flex relative lg:overflow-visible w-full flex-wrap justify-between items-center bg-[url('/silk_mobile.PNG')]  md:bg-[url('/i1.png')] md:bg-cover bg-fixed">
                 <div className="container mx-auto max-w-7xl px-6 flex-grow">
                     <div className="flex relative pt-20 lg:pt-5 z-20 flex-col gap-6 w-full lg:w-1/2 xl:mt-20 block">
                         <div className="text-center leading-8 md:leading-10 md:text-left">

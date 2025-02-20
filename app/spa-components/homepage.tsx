@@ -28,15 +28,16 @@ export default function Homepage(){
                 >
                 <div className="text-center leading-8 md:leading-10 md:text-left">
                   <div className="inline-block">
-                    <h1 className="tracking-tight text-white inline font-semibold text-[2.1rem] lg:text-5xl">Welcome to&nbsp;</h1>
+                    <h1 className="tracking-tight inline font-semibold from-[#D5ECE1] to-[#D5ECE1] text-[2.1rem] lg:text-5xl bg-clip-text text-transparent bg-gradient-to-r">Welcome to&nbsp;</h1>
                     
-                  </div>
-                  <div className="inline-block">
-                    <h1 className="tracking-tight inline font-semibold from-indigo-400 to-teal-400 text-[2.1rem] lg:text-5xl bg-clip-text text-transparent bg-gradient-to-r">Merge 2 Minds Global&nbsp;</h1>
                   </div>
 
                   <div className="inline-block">
-                    <h2 className="tracking-tight inline font-semibold text-[1.5rem] lg:text-3xl text-white">
+                    <h1 className="tracking-tight inline font-semibold from-[#5BF0A6] to-[#42423E] text-[2.1rem] lg:text-5xl bg-clip-text text-transparent bg-gradient-to-r">Merge 2 Minds Global&nbsp;</h1>
+                  </div>
+
+                  <div className="inline-block">
+                    <h2 className="tracking-tight inline font-semibold text-[1.5rem] lg:text-3xl text-[#D5ECE1]">
                       Elevate Converstions <br></br>Elevate Lives
                     </h2>
                   </div>
@@ -44,26 +45,7 @@ export default function Homepage(){
                 </div>
                 </motion.div>
 
-                <motion.div
-                animate={{
-                  x: [100, 0],
-                  borderRadius: ["0%", "0%", "50%", "50%", "0%"]
-                }}
-                transition={{
-                  duration: 1,
-                  ease: "easeInOut"
-                }}
-                className="flex flex-col md:flex-row items-center gap-4">
-                    <Button
-                        as={Link}
-                        href="/#features"
-                        color="primary"
-                        variant="bordered"
-                        className="w-full justify-center item-center flex items-center gap-5 self-start rounded-lg px-6 py-3 text-lg font-medium text-white md:text-base"
-                      >
-                        Explore ➔
-                    </Button>
-                
+                <motion.div>
                 </motion.div>
               </div>
               

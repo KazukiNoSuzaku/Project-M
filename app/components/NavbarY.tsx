@@ -51,7 +51,7 @@ export default function NavbarY(){
             alt="Frostforge"
             />
           </div>
-            <p className="font-bold text-white">Frost Forge</p>
+            <p className="font-bold text-white">Merge 2 Minds</p>
           </NavbarBrand>
           </Link>
           
@@ -70,7 +70,7 @@ export default function NavbarY(){
               role="button"
               href="/#features"
               >
-              Feature
+              About Us
             </Link>
           </NavbarItem>
           <NavbarItem>

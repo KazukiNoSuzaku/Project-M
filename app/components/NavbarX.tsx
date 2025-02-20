@@ -47,16 +47,16 @@ export default function NavbarX(){
           role="button"
           onClick={()=>scrollToTop()}>
             
-          <NavbarBrand className='text-neutral-700'>
+          <NavbarBrand className='text-[## D5ECE1]'>
           <div className="pr-3 pb-1">
             <Image
-            src="/frostforge_logo.png"
+            src="/M2M_logo.svg"
             width={36}
             height={36}
-            alt="Frostforge"
+            alt="M2M"
             />
           </div>
-            <p className="font-bold text-white">Frost Forge</p>
+            <p className="font-bold text-xl text-[#D5ECE1]">Merge 2 Minds</p>
           </NavbarBrand>
           </Link>
           
@@ -67,7 +67,7 @@ export default function NavbarX(){
             <Link color="foreground" 
               href="#features"
               role="button">
-              Features
+              <p className="text-[#D5ECE1]">About Us</p>
             </Link>
           </NavbarItem>
           <NavbarItem >
@@ -75,21 +75,14 @@ export default function NavbarX(){
               color="foreground"
               href="#services"
               role="button">
-              Services
-            </Link>
-          </NavbarItem>
-          <NavbarItem isActive>
-            <Link 
-             aria-current="page"
-              href='/pricing'>
-              Pricing
+              <p className="text-[#D5ECE1]">Solutions</p>
             </Link>
           </NavbarItem>
           <NavbarItem>
             <Link color="foreground"
               href="#contact"
               role="button">
-              Contact
+              <p className="text-[#D5ECE1]">Contact</p>
             </Link>
           </NavbarItem>
           
