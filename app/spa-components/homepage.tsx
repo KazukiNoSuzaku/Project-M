@@ -69,10 +69,10 @@ export default function Homepage(){
                 </motion.div>
               </section>
 
-              {/* Next Section - Revealed on Scroll */}
+              {/* 
               <section className="h-screen w-full flex items-center justify-center bg-gray-900 text-white">
                 <h2 className="text-4xl">Next Section Content</h2>
-              </section>
+              </section>*/}
             </div>
           </div>
       

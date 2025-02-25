@@ -1,7 +1,7 @@
 
 'use client'
 // import Link from 'next/link';
-import Features from './spa-components/features';
+import Team from './spa-components/team';
 import Homepage from './spa-components/homepage';
 import Products from './spa-components/products';
 import Sponsor from './spa-components/sponsor';
@@ -46,8 +46,8 @@ export default function Home() {
           <section id="home">
             <Homepage/>
           </section>
-          <section id="features">
-              <Features/>
+          <section id="team">
+              <Team/>
           </section>
           <section id="services">
               <Products/>

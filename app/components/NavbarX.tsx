@@ -72,9 +72,9 @@ export default function NavbarX(){
           <NavbarItem >
             <Link
               color="foreground"
-              href="#services"
+              href="#team"
               role="button">
-              <p className="text-[#D5ECE1]">Solutions</p>
+              <p className="text-[#D5ECE1]">Meet the team</p>
             </Link>
           </NavbarItem>
           <NavbarItem>

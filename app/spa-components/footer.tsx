@@ -20,7 +20,7 @@ export default function Footer(){
                Youtube
             </Link>
             <Link href="/terms" role="button" className="text-neutral-300">
-                TickTok
+                TikTok
             </Link>
             <Link href="/privacy" role="button" className="text-neutral-300">
                FAQs
