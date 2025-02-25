@@ -7,8 +7,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Merge2Minds. Elevate Conversations. Elevate Lives.",
-  description: "Web for everyone",
+  title: "Merge2Minds Global",
+  description: "Elevate Conversations. Elevate Lives",
 };
 
 export default function RootLayout({

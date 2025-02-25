@@ -62,7 +62,7 @@ export default function NavbarY(){
             <Link color="foreground" 
               href="/"
               role="button">
-              Home
+              <p className="text-[#D5ECE1]">Home</p>
             </Link>
           </NavbarItem>
           <NavbarItem>
@@ -70,13 +70,13 @@ export default function NavbarY(){
               role="button"
               href="/#features"
               >
-              About Us
+              <p className="text-[#D5ECE1]">About Us</p>
             </Link>
           </NavbarItem>
           <NavbarItem>
             <Link color="foreground"
               href='/#services'>
-              Services
+              <p className="text-[#D5ECE1]">Services</p>
             </Link>
           </NavbarItem>
           <NavbarItem>
@@ -84,7 +84,7 @@ export default function NavbarY(){
               href="/#contact"
               tabIndex={3}
               role="button">
-              Contact
+              <p className="text-[#D5ECE1]">Contact</p>
             </Link>
           </NavbarItem>
           
