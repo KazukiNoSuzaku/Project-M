@@ -50,7 +50,7 @@ export default function Homepage(){
                       hidden: { opacity: 0, y: 20, filter: "blur(5px)" },
                       visible: { opacity: 1, y: 0, filter: "blur(0px)", 
                       transition: { duration: 1.2 } },
-                    }}>MERGE2MINDS
+                    }}>Merge2Minds Global
                   </motion.h1>
                   <motion.h2 className="tracking-tight font-semibold text-3xl text-[#D5ECE1]"
                     variants={{

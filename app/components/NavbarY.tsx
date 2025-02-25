@@ -29,7 +29,7 @@ export default function NavbarY(){
       };
     
     return(
-        <Navbar onMenuOpenChange={setIsMenuOpen}>
+        <Navbar Navbar className="bg-[#132A1F]" isBlurred={false} maxWidth="full" isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
         <NavbarContent>
           
           <NavbarMenuToggle
@@ -45,13 +45,13 @@ export default function NavbarY(){
           <NavbarBrand className='text-black'>
           <div className="pr-3 pb-1">
             <Image
-            src="/frostforge_logo.png"
+            src="/M2M_logo.svg"
             width={36}
             height={36}
-            alt="Frostforge"
+            alt="M2M"
             />
           </div>
-            <p className="font-bold text-white">Merge 2 Minds</p>
+            <p className="font-bold text-xl text-[#D5ECE1]">Merge2Minds</p>
           </NavbarBrand>
           </Link>
           

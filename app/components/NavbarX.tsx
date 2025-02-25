@@ -55,7 +55,7 @@ export default function NavbarX(){
             alt="M2M"
             />
           </div>
-            <p className="font-bold text-xl text-[#D5ECE1]">MERGE2MINDS</p>
+            <p className="font-bold text-xl text-[#D5ECE1]">Merge2Minds</p>
           </NavbarBrand>
           </Link>
           
@@ -64,9 +64,9 @@ export default function NavbarX(){
         <NavbarContent className="hidden sm:flex gap-4" justify="center">
           <NavbarItem>
             <Link color="foreground" 
-              href="#features"
-              role="button">
-              <p className="text-[#D5ECE1]">About Us</p>
+              role="button"
+              onClick={()=>scrollToTop()}>
+              <p className="text-[#D5ECE1]">Home</p>
             </Link>
           </NavbarItem>
           <NavbarItem >

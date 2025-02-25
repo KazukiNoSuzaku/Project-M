@@ -14,57 +14,27 @@ export default function Terms(){
             <div  className="flex relative z-20 flex-col gap-6 w-full xl:mt-10">
                 <div className="text-center leading-8 md:leading-10 md:text-left">
                     <div className="inline-block">
-                        <h1 className="tracking-tight text-white inline font-semibold text-[2.1rem] lg:text-5xl">Terms & Conditions&nbsp;</h1>
+                        <h1 className="tracking-tight text-[#D5ECE1] inline font-semibold text-[2.1rem] lg:text-5xl">Terms & Conditions&nbsp;</h1>
                     </div>
 
                     
                 </div>
-                <h2 className="w-full md:w-1/2 my-2 text-lg lg:text-xl font-normal text-white block max-w-full !w-full text-center md:text-left">
-                Last updated: 1st September 2023.</h2>  
-                 <Divider className="bg-white" />
+                <h2 className="w-full md:w-1/2 my-2 text-lg lg:text-xl font-normal text-[#D5ECE1] block max-w-full !w-full text-center md:text-left">
+                Last updated: 25th February 2025.</h2>  
+                 <Divider className="bg-[#D5ECE1]" />
 
 
                 
                 {/* Web design section */}
                 <div className="text-left leading-8 md:leading-10 md:text-left">
-                    <h1 className="text-white font-normal md:w-1/2 inline text-[2rem]">1. Web Design & Development </h1>
-                </div>
-                <div className="text-left leading-8 md:leading-10 md:text-left">
-                    <h2 className="text-white font-semibold md:w-1/2 inline text-[1.5rem]">Payment</h2>
+                    <h1 className="text-[#D5ECE1] font-normal md:w-1/2 inline text-[2rem]">1. Introduction </h1>
                 </div>
                 <div >
-                    <p className="w-full font-normal text-white block max-w-full">
-                        The initial phase involves crafting the landing page(home page) of your website.
-                        Following its completion, an initial payment equivalent to 20%
-                        of the anticipated total cost is expected. 
-                    </p>
-                </div>
-                <div>
-                    <p className="w-full font-normal text-white block max-w-full">
-                        The remaining balance (including the website and any additional
-                        services used) will be paid based on the progress of the website 
-                        development.
-                    </p>
-                </div>
-                <div className="text-left leading-8 md:leading-10 md:text-left">
-                    <h2 className="text-white font-semibold md:w-1/2 inline text-[1.5rem]">Cancellation policy</h2>
-                </div>
-                <div >
-                    <p className="w-full font-normal text-white block max-w-full">
-                        If you decide to cancel services before the project is completed,
-                        you will be charged for the work completed. e.g. If our team have completed
-                        the design and development of the homepage, you'll need to pay the corresponding fee.
-                    </p>
-                </div>
-                <div className="text-left leading-8 md:leading-10 md:text-left">
-                    <h2 className="text-white font-semibold md:w-1/2 inline text-[1.5rem]">Termination Clause:</h2>
-                </div>
-                <div >
-                    <p className="w-full font-normal text-white block max-w-full">
-                        Failure to comply with the stated terms or to pay outstanding fees
-                        will result in suspension of the website and related services.
-                        We reserve the right to suspend or terminate any service provided
-                        without prior notice.
+                    <p className="w-full font-normal text-[#D5ECE1] block max-w-full">
+                    Welcome to Merge2Minds, an online platform deisgned to connect users(referred to as Empathisee) with listeners or helpers(referred to as Empathisers). 
+                    By accessing, registering, installing, or using the Merge2Minds application platform, services, features, software, or website, you agree to be bound by these Terms and Conditions.Please read the agreement carefully.
+                    By using our site or our app, you acknowledge that you have read, understood and agreed to be bound by the terms and conditions set forth in the Agreement and the 
+                    privacy policy (accessible at http://merge2minds.co/privacy/). If you do not wish to be bound by this Agreement and the privacy policy, you are not authorised to use our site or our app.
                     </p>
                 </div>
 
