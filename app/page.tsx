@@ -49,9 +49,6 @@ export default function Home() {
           <section id="team">
               <Team/>
           </section>
-          <section id="services">
-              <Products/>
-          </section>
           <section id="contact">
               <Contact/>
           </section>

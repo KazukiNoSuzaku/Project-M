@@ -1,7 +1,7 @@
 import { Link, Image } from "@nextui-org/react"
 export default function Footer(){
     return(
-    <main className="relative z-10 flex pt-10 pb-10 flex-col gap-2 w-full text-center bg-neutral-800">
+    <main className="relative z-10 flex pt-10 pb-10 flex-col gap-2 w-full text-center bg-transaprent">
         <div className="flex flex-wrap justify-center gap-5 items-center">
             <p className="text-sm text-white md:w-1/2">
                 Copyright © 2025 Merge2Minds - All rights Reserved
