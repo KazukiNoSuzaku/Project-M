@@ -9,12 +9,11 @@ export default function NavbarX(){
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
     const menuItems = [
       "Home",
-      "Features",
-      "Services",
-      "Pricing",
+      "Mission",
+      "Meet the Team",
+      "Contact",
       "Terms & Conditions",
       "Privacy Policy",
-      "Contact",
     ];
 
     
@@ -35,7 +34,7 @@ export default function NavbarX(){
       };
     
     return(
-        <Navbar isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
+        <Navbar className="bg-transparent" isBlurred={false} maxWidth="full" isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
         <NavbarContent>
           
           <NavbarMenuToggle
@@ -56,7 +55,7 @@ export default function NavbarX(){
             alt="M2M"
             />
           </div>
-            <p className="font-bold text-xl text-[#D5ECE1]">Merge 2 Minds</p>
+            <p className="font-bold text-xl text-[#D5ECE1]">MERGE2MINDS</p>
           </NavbarBrand>
           </Link>
           

@@ -1,13 +1,82 @@
-import {Image, Link} from "@nextui-org/react";
-import { motion } from "framer-motion"
-import { Button } from "@nextui-org/react";
+"use client";
+
+import { motion, useScroll, useTransform } from "framer-motion";
+import { useRef } from "react";
 
 
 export default function Homepage(){
+
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start start", "end start"], // Fade out as the first section leaves the viewport
+  });
+
+  // Opacity decreases as user scrolls down
+  const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0]);
+  const blur = useTransform(scrollYProgress, [0, 0.5], ["0px", "10px"]);
+
     return(
         <main>
+          <div className="relative w-full">
+            {/* fixed video bg */}
+            <div className="fixed top-0 left-0 w-screen h-screen z-0">
+              <video src="leaves.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="w-full h-full object-cover"
+              />
+            </div>
+
+            <div className="relative z-10 flex flex-col items-center w-full">
+              <section ref={ref} className="h-screen w-full flex items-center justify-center">
+                <motion.div
+                  className="text-center leading-8 md:leading-10"
+                  initial="hidden"
+                  animate="visible"
+                  variants={{
+                    visible: {
+                      transition: {
+                        staggerChildren: 0.7,
+                      },
+                    },
+                  }}
+                  style={{ opacity, filter: blur }}
+                >
+                  <motion.h1 className="tracking-tight font-semibold from-[#5BF0A6] to-[#42423E] text-8xl bg-clip-text text-transparent bg-gradient-to-r"
+                    variants={{
+                      hidden: { opacity: 0, y: 20, filter: "blur(5px)" },
+                      visible: { opacity: 1, y: 0, filter: "blur(0px)", 
+                      transition: { duration: 1.2 } },
+                    }}>MERGE2MINDS
+                  </motion.h1>
+                  <motion.h2 className="tracking-tight font-semibold text-3xl text-[#D5ECE1]"
+                    variants={{
+                      hidden: { opacity: 0, y: 20, filter: "blur(5px)" },
+                      visible: { opacity: 1, y: 0, filter: "blur(0px)", 
+                      transition: { duration: 1.2 } },
+                    }}>Elevate Converstions
+                  </motion.h2>
+                  <motion.h2 className="tracking-tight font-semibold text-3xl text-[#D5ECE1]"
+                    variants={{
+                      hidden: { opacity: 0, y: 20, filter: "blur(5px)" },
+                      visible: { opacity: 1, y: 0, filter: "blur(0px)", 
+                      transition: { duration: 1.2 } },
+                    }}>Elevate Lives
+                  </motion.h2>
+                </motion.div>
+              </section>
+
+              {/* Next Section - Revealed on Scroll */}
+              <section className="h-screen w-full flex items-center justify-center bg-gray-900 text-white">
+                <h2 className="text-4xl">Next Section Content</h2>
+              </section>
+            </div>
+          </div>
       
-          <div className="flex relative overflow-hidden lg:overflow-visible w-full flex-nowrap justify-between items-center h-[calc(100vh_-_64px)]  ">
+          {/* <div className="flex relative overflow-hidden lg:overflow-visible w-full flex-nowrap justify-between items-center h-[calc(100vh_-_64px)]  ">
             <video src="leaves.mp4" autoPlay loop muted playsInline
               style={{position:"fixed", height:"100%", width:"100%", objectFit:"cover",top:"0",zIndex:"0", left:"0", minWidth: "100%",
               minHeight: "100%"}}/>
@@ -26,36 +95,25 @@ export default function Homepage(){
                     ease: "easeInOut"
                   }}
                 >
-                <div className="text-center leading-8 md:leading-10 md:text-left">
-                  <div className="inline-block">
-                    <h1 className="tracking-tight inline font-semibold from-[#D5ECE1] to-[#D5ECE1] text-[2.1rem] lg:text-5xl bg-clip-text text-transparent bg-gradient-to-r">Welcome to&nbsp;</h1>
-                    
-                  </div>
+                <div className="text-center leading-8 md:leading-10">
 
                   <div className="inline-block">
-                    <h1 className="tracking-tight inline font-semibold from-[#5BF0A6] to-[#42423E] text-[2.1rem] lg:text-5xl bg-clip-text text-transparent bg-gradient-to-r">Merge 2 Minds Global&nbsp;</h1>
-                  </div>
-
-                  <div className="inline-block">
+                    <h1 className="tracking-tight inline font-semibold from-[#5BF0A6] to-[#42423E] text-[2.1rem] lg:text-5xl bg-clip-text text-transparent bg-gradient-to-r">MERGE2MINDS <br></br></h1>
                     <h2 className="tracking-tight inline font-semibold text-[1.5rem] lg:text-3xl text-[#D5ECE1]">
-                      Elevate Converstions <br></br>Elevate Lives
+                      Elevate Converstions <br></br>
+                    </h2>
+                    <h2 className="tracking-tight inline font-semibold text-[1.5rem] lg:text-3xl text-[#D5ECE1]">
+                      Elevate Lives
                     </h2>
                   </div>
                   
                 </div>
                 </motion.div>
+              </div>              
 
-                <motion.div>
-                </motion.div>
-              </div>
-              
-
-            </div>
-            
-              
-
-          
-          </div>
+            </div>       
+                       
+          </div> */}
       
         </main>
     )

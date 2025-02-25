@@ -7,7 +7,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "FrostForge Web Studio: Affordable, clean and beautiful Web Design for everyone",
+  title: "Merge2Minds. Elevate Conversations. Elevate Lives.",
   description: "Web for everyone",
 };
 

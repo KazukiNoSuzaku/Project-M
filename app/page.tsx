@@ -39,32 +39,24 @@ export default function Home() {
   }, []); 
 
 
-
   return (
     <main className='dark'>     
-
-
-          <NavbarX/>
+        <NavbarX/>
         <div>
-        <section id="home">
-          <Homepage/>
-        </section>
-        <section id="features">
-            <Features/>
-        </section>
-        <section id="services">
-            <Products/>
-        </section>
-        <section id="contact" className="">
-            <Contact/>
-        </section>
+          <section id="home">
+            <Homepage/>
+          </section>
+          <section id="features">
+              <Features/>
+          </section>
+          <section id="services">
+              <Products/>
+          </section>
+          <section id="contact">
+              <Contact/>
+          </section>
         <Footer/>
-        </div>
-      
- 
-        
-
-      
+        </div> 
     </main>
   );
 }

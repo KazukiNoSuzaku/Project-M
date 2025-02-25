@@ -91,34 +91,6 @@ export default function Contact(){
                     
                 </div>
 
-                <h3 className="text-large text-white text-center">Powered and supported by</h3>
-                <div className="w-full pb-20 flex flex-wrap gap-x-5 gap-y-3 justify-center items-center">
-            
-                    <Image
-                        src="/nextjs_logo.png"
-                        height={10}
-                        width={100}
-                        alt="next" />
-                    <Image
-                        src="/react_logo.png"
-                        height={10}
-                        width={100}
-                        alt="react" />
-                    <Image
-                        src="/aws_logo.png"
-                        height={10}
-                        width={100}
-                        alt="aws" />
-            
-                </div>
- 
-
- 
-            {/* <div className="flex items-right justify-center md:w-3/5 h-1/3  md:px-15 hidden md:block">
-                <div className="flex items-right justify-center w-full md:px-15 ">
-                <Letter/>
-                </div>    
-            </div> */}
             </div>
             
  
