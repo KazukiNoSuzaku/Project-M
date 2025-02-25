@@ -45,7 +45,7 @@ export default function Homepage(){
                   }}
                   style={{ opacity, filter: blur }}
                 >
-                  <motion.h1 className="tracking-tight font-semibold from-[#5BF0A6] to-[#42423E] text-8xl bg-clip-text text-transparent bg-gradient-to-r"
+                  <motion.h1 className="tracking-tight font-semibold from-[#5BF0A6] to-[#5BF0A6] text-8xl bg-clip-text text-transparent bg-gradient-to-r"
                     variants={{
                       hidden: { opacity: 0, y: 20, filter: "blur(5px)" },
                       visible: { opacity: 1, y: 0, filter: "blur(0px)", 
