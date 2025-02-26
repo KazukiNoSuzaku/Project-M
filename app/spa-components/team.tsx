@@ -9,13 +9,11 @@ export default function Team() {
 
   return(
 
-    <main className="min-h-screen flex items-center justify-center bg-gradient-to-r from-[#42423E] to-olive-500">
-      <div className="flex w-full flex-wrap justify-center items-center">
-
+    <main className="min-h-screen flex items-center justify-center relative">
+      <div className="absolute inset-0 bg-white/40"></div> {/* Slightly transparent background */}
+      <div className="relative flex h-screen w-full flex-wrap justify-center items-center">
         <div className="container mx-auto max-w-7xl px-6 flex-grow">
-
           <div className="flex pt-20 md:pt-10 relative z-20 flex-col gap-6 w-full lg:w-1/2 xl:mt-20 block">
-            
             <motion.div
               className="text-center leading-8 md:leading-10 md:text-left"
               initial={{ opacity: 0 }}
@@ -28,7 +26,6 @@ export default function Team() {
               <h1 className="tracking-tight text-[#D5ECE1] inline font-semibold text-[2.1rem] lg:text-5xl">About&nbsp;</h1>
               <h1 className="tracking-tight inline font-semibold from-[#5BF0A6] to-[#204634] text-[2.1rem] lg:text-5xl bg-clip-text text-transparent bg-gradient-to-b">Us&nbsp;</h1>
             </motion.div>
-
             <motion.h2
               className="w-full md:w-1/2 my-2 text-lg lg:text-xl font-normal text-[#D5ECE1] text-center md:text-left whitespace-nowrap"
               initial={{ opacity: 0 }}
@@ -41,7 +38,6 @@ export default function Team() {
               Meet the team behind the mission
             </motion.h2>  
           </div>
-
           <motion.div 
             className="grid pt-10 pb-20 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
             initial={{ opacity: 0 }}
@@ -125,9 +121,7 @@ export default function Team() {
             </motion.div>
             
           </motion.div>
-
         </div>
-
       </div>
     </main>
 
